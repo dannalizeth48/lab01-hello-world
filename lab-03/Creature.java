@@ -1,6 +1,6 @@
 public class Creature {
-    String name;
-    String size;
+    private String name;
+    private String size;
 
     // Constructor
     public Creature(String name, String size) {
@@ -8,20 +8,27 @@ public class Creature {
         this.size = size;
     }
 
-    // Methods
-    public void eat() {
-        System.out.println(name + " is eating.");
+    // Getter for name
+    public String getName() {
+        return name;
     }
 
-    public void talk() {
-        System.out.println(name + " says hello!");
+    // Setter for name (optional but useful)
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public void move() {
-        System.out.println(name + " is moving around.");
+    // Getter for size
+    public String getSize() {
+        return size;
     }
 
-    @Override
+    // Setter for size (optional but useful)
+    public void setSize(String size) {
+        this.size = size;
+    }
+
+    // toString for debugging / printing
     public String toString() {
         return "Creature{name='" + name + "', size='" + size + "'}";
     }
