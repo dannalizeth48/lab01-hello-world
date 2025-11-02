@@ -1,0 +1,8 @@
+FINAL WORLD STATE
+-----------------
+World:
+[0,0] Tile{water=50, temp=20, nutrient=70, creatures=[[Creature type=Mammal, name=Bear, species=Bear, size=Large], [Creature type=Bird, name=Hawk, species=Hawk, size=Medium]]}
+[0,1] Tile{water=50, temp=20, nutrient=70, creatures=[]}
+[1,0] Tile{water=50, temp=20, nutrient=70, creatures=[]}
+[1,1] Tile{water=50, temp=20, nutrient=70, creatures=[[Creature type=Fish, name=Koi, species=Koi, size=Small], [Plant name=OldPine, species=Pine, size=Large, perennial=true, stemType=woody, reproductionModes=[seeds], growthStyle=tall]]}
+
