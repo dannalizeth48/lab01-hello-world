@@ -1,23 +1,30 @@
-# Lab 04: Graphical User Interfaces
+# Lab 04 – Graphical User Interfaces  
 CSC 210 – Computer Programming 2  
 Student: Danna Gomez  
-Semester: Fall 2025  
-Professor: Conroy
 
-## Objective
-This lab introduces Java Swing. The goal is to build GUI programs that:
-- Use buttons, labels, text fields, text areas, and lists
-- React to user events (button clicks, list selection)
-- Work with collections of data (ArrayList of Creature objects)
-- Load and save Creature data to a file
+## Overview  
+This lab demonstrates Java Swing programming using four small applications that introduce buttons, labels, lists, and file-based data management.
 
-## Program 1 – HelloGUI.java
-A simple window with:
-- A blank label
-- A button labeled "Greet"
-When the button is clicked, the program randomly chooses one of 5 greetings and shows it in the label.
+## Programs  
 
-How to compile/run:
+**1. HelloGUI.java**  
+Shows a button that displays a random greeting when clicked.  
+
+**2. SingleCreatureGUI.java**  
+Lets the user view and edit one `Creature` object using text fields and buttons.  
+
+**3. MultipleCreatureGUI.java**  
+Displays a list of several `Creature` objects, allows selecting, editing, and triggering actions (`eat()`).  
+
+**4. CreaturesFromFileGUI.java**  
+Loads and saves creatures from `creature-data.csv` using `ProcessCreatureFile`. Supports adding, editing, and deleting records through a GUI.  
+
+## How to Compile and Run  
+Run from inside the `lab-04` folder:
+
 ```bash
-javac HelloGUI.java
+javac *.java
 java HelloGUI
+java SingleCreatureGUI
+java MultipleCreatureGUI
+java CreaturesFromFileGUI
