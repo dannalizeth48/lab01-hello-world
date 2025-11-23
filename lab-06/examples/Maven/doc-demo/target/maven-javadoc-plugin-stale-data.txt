@@ -1,0 +1,51 @@
+-Xdoclint:none
+@options
+@packages
+-classpath
+'C:/Users/Danna/.m2/repository/org/junit/jupiter/junit-jupiter/5.10.2/junit-jupiter-5.10.2.jar;C:/Users/Danna/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar;C:/Users/Danna/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar;C:/Users/Danna/.m2/repository/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.jar;C:/Users/Danna/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar;C:/Users/Danna/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.2/junit-jupiter-params-5.10.2.jar;C:/Users/Danna/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.2/junit-jupiter-engine-5.10.2.jar;C:/Users/Danna/.m2/repository/org/junit/platform/junit-platform-engine/1.10.2/junit-platform-engine-1.10.2.jar'
+-encoding
+'UTF-8'
+-protected
+-source
+'17'
+-sourcepath
+'C:/Users/Danna/Downloads/lab01-hello-world/lab-06/examples/Maven/doc-demo/src/main/java;C:/Users/Danna/Downloads/lab01-hello-world/lab-06/examples/Maven/doc-demo/target/generated-sources/annotations'
+-author
+-bottom
+'Copyright &#169; 2025. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/Danna/Downloads/lab01-hello-world/lab-06/examples/Maven/doc-demo/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'Documentation Demo 1.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'Documentation Demo 1.0-SNAPSHOT API'
+com.example.docs
+C:\Users\Danna\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar = 1763346053588
+C:\Users\Danna\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar = 1763346053755
+C:\Users\Danna\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar = 1763346054018
+C:\Users\Danna\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar = 1763346053738
+C:\Users\Danna\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar = 1763346053798
+C:\Users\Danna\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar = 1763346053797
+C:\Users\Danna\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar = 1763346053875
+C:\Users\Danna\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar = 1763346053891
+C:\Users\Danna\Downloads\lab01-hello-world\lab-06\examples\Maven\doc-demo\src\main\java = 1762727653765
+C:\Users\Danna\Downloads\lab01-hello-world\lab-06\examples\Maven\doc-demo\target\generated-sources\annotations = 1763346560218
+C:\Users\Danna\Downloads\lab01-hello-world\lab-06\examples\Maven\doc-demo\target\site\apidocs\allclasses-index.html = 1763346640417
+C:\Users\Danna\Downloads\lab01-hello-world\lab-06\examples\Maven\doc-demo\target\site\apidocs\allpackages-index.html = 1763346640421
+C:\Users\Danna\Downloads\lab01-hello-world\lab-06\examples\Maven\doc-demo\target\site\apidocs\element-list = 1763346640362
+C:\Users\Danna\Downloads\lab01-hello-world\lab-06\examples\Maven\doc-demo\target\site\apidocs\help-doc.html = 1763346640456
+C:\Users\Danna\Downloads\lab01-hello-world\lab-06\examples\Maven\doc-demo\target\site\apidocs\index-all.html = 1763346640443
+C:\Users\Danna\Downloads\lab01-hello-world\lab-06\examples\Maven\doc-demo\target\site\apidocs\index.html = 1763346640450
+C:\Users\Danna\Downloads\lab01-hello-world\lab-06\examples\Maven\doc-demo\target\site\apidocs\member-search-index.js = 1763346640427
+C:\Users\Danna\Downloads\lab01-hello-world\lab-06\examples\Maven\doc-demo\target\site\apidocs\module-search-index.js = 1763346640422
+C:\Users\Danna\Downloads\lab01-hello-world\lab-06\examples\Maven\doc-demo\target\site\apidocs\overview-tree.html = 1763346640403
+C:\Users\Danna\Downloads\lab01-hello-world\lab-06\examples\Maven\doc-demo\target\site\apidocs\package-search-index.js = 1763346640424
+C:\Users\Danna\Downloads\lab01-hello-world\lab-06\examples\Maven\doc-demo\target\site\apidocs\search.html = 1763346640447
+C:\Users\Danna\Downloads\lab01-hello-world\lab-06\examples\Maven\doc-demo\target\site\apidocs\tag-search-index.js = 1763346640430
+C:\Users\Danna\Downloads\lab01-hello-world\lab-06\examples\Maven\doc-demo\target\site\apidocs\type-search-index.js = 1763346640425

@@ -1,0 +1,5 @@
+C:\Users\Danna\Downloads\lab01-hello-world\lab-06\examples\Testing\src\main\com\example\math\Calculator.java
+C:\Users\Danna\Downloads\lab01-hello-world\lab-06\examples\Testing\src\main\com\example\util\Strings.java
+C:\Users\Danna\Downloads\lab01-hello-world\lab-06\examples\Testing\src\myprog\com\myprog\main\Main.java
+C:\Users\Danna\Downloads\lab01-hello-world\lab-06\examples\Testing\src\test\com\example\math\CalculatorTest.java
+C:\Users\Danna\Downloads\lab01-hello-world\lab-06\examples\Testing\src\test\com\example\util\StringsTest.java

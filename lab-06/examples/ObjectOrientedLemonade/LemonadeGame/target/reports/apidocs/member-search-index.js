@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"com.example.lemonade","c":"LemonadeGame","l":"LemonadeGame(Scanner)","u":"%3Cinit%3E(java.util.Scanner)"},{"p":"com.example.lemonade","c":"Main","l":"Main()","u":"%3Cinit%3E()"},{"p":"com.example.lemonade","c":"Main","l":"main(String[])","u":"main(java.lang.String[])"},{"p":"com.example.lemonade","c":"LemonadeGame","l":"run()"}];updateSearchResults();

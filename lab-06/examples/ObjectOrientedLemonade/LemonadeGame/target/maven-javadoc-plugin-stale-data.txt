@@ -1,0 +1,40 @@
+-J-Duser.language=
+-J-Duser.country=
+@options
+@packages
+--no-fonts
+-encoding
+'UTF-8'
+-protected
+-sourcepath
+'C:/Users/Danna/Downloads/lab01-hello-world/lab-06/examples/ObjectOrientedLemonade/LemonadeGame/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2025. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/Danna/Downloads/lab01-hello-world/lab-06/examples/ObjectOrientedLemonade/LemonadeGame/target/reports/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'LemonadeGame 1.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'LemonadeGame 1.0-SNAPSHOT API'
+com.example.lemonade
+C:\Users\Danna\Downloads\lab01-hello-world\lab-06\examples\ObjectOrientedLemonade\LemonadeGame\src\main\java = 1763930339712
+C:\Users\Danna\Downloads\lab01-hello-world\lab-06\examples\ObjectOrientedLemonade\LemonadeGame\target\reports\apidocs\allclasses-index.html = 1763932688842
+C:\Users\Danna\Downloads\lab01-hello-world\lab-06\examples\ObjectOrientedLemonade\LemonadeGame\target\reports\apidocs\allpackages-index.html = 1763932688846
+C:\Users\Danna\Downloads\lab01-hello-world\lab-06\examples\ObjectOrientedLemonade\LemonadeGame\target\reports\apidocs\element-list = 1763932688757
+C:\Users\Danna\Downloads\lab01-hello-world\lab-06\examples\ObjectOrientedLemonade\LemonadeGame\target\reports\apidocs\help-doc.html = 1763932688900
+C:\Users\Danna\Downloads\lab01-hello-world\lab-06\examples\ObjectOrientedLemonade\LemonadeGame\target\reports\apidocs\index-all.html = 1763932688887
+C:\Users\Danna\Downloads\lab01-hello-world\lab-06\examples\ObjectOrientedLemonade\LemonadeGame\target\reports\apidocs\index.html = 1763932688894
+C:\Users\Danna\Downloads\lab01-hello-world\lab-06\examples\ObjectOrientedLemonade\LemonadeGame\target\reports\apidocs\member-search-index.js = 1763932688860
+C:\Users\Danna\Downloads\lab01-hello-world\lab-06\examples\ObjectOrientedLemonade\LemonadeGame\target\reports\apidocs\module-search-index.js = 1763932688848
+C:\Users\Danna\Downloads\lab01-hello-world\lab-06\examples\ObjectOrientedLemonade\LemonadeGame\target\reports\apidocs\overview-tree.html = 1763932688824
+C:\Users\Danna\Downloads\lab01-hello-world\lab-06\examples\ObjectOrientedLemonade\LemonadeGame\target\reports\apidocs\package-search-index.js = 1763932688850
+C:\Users\Danna\Downloads\lab01-hello-world\lab-06\examples\ObjectOrientedLemonade\LemonadeGame\target\reports\apidocs\search.html = 1763932688890
+C:\Users\Danna\Downloads\lab01-hello-world\lab-06\examples\ObjectOrientedLemonade\LemonadeGame\target\reports\apidocs\tag-search-index.js = 1763932688871
+C:\Users\Danna\Downloads\lab01-hello-world\lab-06\examples\ObjectOrientedLemonade\LemonadeGame\target\reports\apidocs\type-search-index.js = 1763932688852
