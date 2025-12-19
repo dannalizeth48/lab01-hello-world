@@ -1,0 +1,19 @@
+Lab 08 – Written Answers (Danna Gomez)
+
+4) CircleSizeSlider
+a) The circle size is updated by the method that sets the diameter on the drawing component (the panel’s setter for the circle diameter).
+b) The circle is redrawn whenever the slider change listener fires and requests a repaint; Swing then redraws by calling the component’s paint routine.
+
+5) Random Programs (RandomHexPrinter / RawRandomHexStreamer)
+a) They get random bytes by making an HTTP request to Random.org and reading the response bytes.
+b) Random.org is intended to be “true” random (physical noise source), not a deterministic pseudo‑random algorithm like java.util.Random.
+
+6) LogisticMapGenerator (x_{n+1} = r*x_n*(1 - x_n))
+a) Extinction: 0 < r < 1 (the population converges to 0).
+b) Converges to a constant (stable fixed point): 1 < r < 3.
+c) Oscillating / chaotic: r > 3 (period‑doubling roughly 3 to ~3.57; mostly chaotic beyond ~3.57 up to 4, with periodic windows).
+
+10) Agentic Simulation (RabbitAgentSimulationEmergent)
+a) The rabbit population limit is set by resource limits (food/carrots) plus the program’s survival/reproduction rules, which create a carrying‑capacity effect.
+b) The carrot population is maintained by the program’s carrot growth/respawn rules each turn (new carrots appear according to the code’s parameters).
+c) The simulation should qualitatively match the logistic map (stable → oscillating → chaotic as growth increases), but it can differ because it is discrete, rule‑based, and sensitive to randomness and resource timing.

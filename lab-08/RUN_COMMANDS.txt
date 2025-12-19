@@ -1,0 +1,40 @@
+RUN_COMMANDS (Windows CMD)
+
+Assumption: you are inside your repo folder that contains lab-08\
+
+A) Compile + run sketches (from lab-08\sketches)
+cd lab-08\sketches
+javac *.java
+
+1) CircleSizeSlider
+java CircleSizeSlider
+
+2) RandomHexPrinter
+java RandomHexPrinter
+
+3) RawRandomHexStreamer (press CTRL+C to stop)
+java RawRandomHexStreamer
+
+4) Generate logistic-map CSV files (examples)
+java LogisticMapGenerator 0.5 0.5 50 data_r0p5.csv
+java LogisticMapGenerator 2.5 0.5 50 data_r2p5.csv
+java LogisticMapGenerator 3.2 0.5 200 data_r3p2.csv
+java LogisticMapGenerator 3.7 0.5 200 data_r3p7.csv
+
+5) Visualize a CSV (pick one)
+java GraphFromCSV data_r2p5.csv
+java GraphAnimationFromCSV data_r2p5.csv
+java CSVtoPNG data_r2p5.csv graph_output.png
+
+B) Compile + run main programs (from lab-08\)
+cd ..
+javac *.java
+
+6) RabbitPopulationGraph (GUI)
+java RabbitPopulationGraph
+
+7) BifurcationDiagram (visual)
+java BifurcationDiagram
+
+8) RabbitAgentSimulationEmergent (writes a CSV; rename output file after runs)
+java RabbitAgentSimulationEmergent
