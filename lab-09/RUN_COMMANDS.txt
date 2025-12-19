@@ -1,0 +1,28 @@
+Lab 09 - Windows CMD commands (run inside lab-09 folder)
+
+1) Compile everything (simple all-in-one):
+   javac *.java
+
+2) Run programs (examples):
+   java CircleDisplay
+   java SierpinskiTriangle
+   java RandomHexPrinter
+   java RawRandomHexStreamer   (CTRL-C to stop)
+   java GetWebPage
+   java CarrotGenerator
+   java RabbitsMover
+   java WolfMover
+   java SpriteLoader
+   java SpriteLoader2
+   java SpriteAnimationPanel
+   java InteractiveLogisticGrowth
+   java RabbitDiscreteSimulationGUI
+   java MultispeciesContinuousSimulation
+   java MultispeciesSimulationUI
+   java CarrotRabbitSimulation
+   java ArcadeEcosystemSimulation
+   java ArcadeGame
+
+Notes:
+- For SpriteLoader/SpriteAnimationPanel, run from the lab-09 directory so resources/ is found.
+- If random.org is blocked, Ecosystem falls back to pseudorandom carrot spawning.

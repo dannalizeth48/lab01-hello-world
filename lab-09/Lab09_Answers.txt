@@ -1,0 +1,109 @@
+Lab 09: Streaming Data — Written Answers (concise)
+
+5a) How is the circle displayed?
+Using Swing painting: a JPanel overrides paintComponent(Graphics) and calls g.fillOval(...) to draw the circle.
+
+5b) What is the difference between drawing this circle and printing characters?
+Drawing uses a GUI event loop + a graphics context that repaints pixels on a window; printing writes characters to stdout (text stream) with no graphics canvas.
+
+6a) In a continuous model, how is the population calculated each step?
+By taking a small time step (dt) and updating the population using an equation-derived delta (e.g., Euler stepping), instead of jumping generation-to-generation with a discrete map.
+
+6b) In what way is the continuous model similar to the discrete logistic map?
+Both use feedback: next value depends on current value and a growth limit (carrying capacity), so both can converge, oscillate, or behave chaotically depending on parameters.
+
+6c) In what way is the continuous model different from its discrete cousin?
+Continuous models approximate change over time with small dt steps (smooth curves); discrete maps update once per generation and can show sharp iteration behavior.
+
+6d) (Discrete GUI) How does the GUI update?
+A Swing Timer repeatedly updates the model then calls repaint(), so the screen streams updates over time.
+
+6e) What values lead to stability vs oscillation/chaos (general)?
+Low growth rates converge to a stable value; higher rates can oscillate; sufficiently high rates can become chaotic.
+
+7a) What makes the Sierpinski triangle recursive?
+The triangle is made of smaller triangles; the function calls itself on sub-triangles until a base depth is reached.
+
+7b) What is the base case?
+Depth == 0 (or minimal size) where a single triangle is drawn and recursion stops.
+
+7c) How does recursion relate to the logistic map?
+Both repeatedly apply the same rule to smaller parts (triangle subdivision) or next population value (iteration), producing complex patterns from simple repeated steps.
+
+8a) What are RandomHexPrinter and RawRandomHexStreamer doing?
+They produce a stream of hexadecimal bytes: one prints a finite set; the other streams continuously.
+
+8b) How do they get randomness?
+They draw bytes from a source of randomness (often OS entropy) or a pseudorandom generator, then format as hex.
+
+8c) Is the randomness truly random?
+In typical Java programs it is usually pseudorandom unless it’s sourced from true hardware/OS entropy; externally fetched randomness (like random.org) is closer to “true” randomness.
+
+8d) GetWebPage.java output
+GetWebPage prints the HTML from https://www.java.com/ to stdout.
+
+9a) Are the random numbers random or pseudorandom?
+Pseudorandom (Java PRNG).
+
+9b) What do the random values get used as?
+They are used as randomized positions/events (e.g., where a carrot spawns).
+
+9c) How often does the timer execute?
+Depends on the Timer delay (milliseconds); shorter delay -> more updates per second.
+
+9d) What code executes when the timer goes off?
+The ActionListener callback (actionPerformed / lambda) executes; it updates state and calls repaint().
+
+10a) What determines rabbit starting location?
+The constructor assigns x/y (often random within bounds or based on initial spawn logic).
+
+10b) What initializes velocity?
+The vx/vy fields are assigned during creation (often random).
+
+10c) How many times per second are positions updated?
+~1000/delayMs (e.g., 16ms ~ 60 FPS).
+
+10d) What function updates a rabbit’s position?
+A move()/step() method called each timer tick.
+
+10e) How do rabbits bounce off walls?
+By checking bounds and negating velocity components when exceeding edges.
+
+11a) How often does WolfMover update?
+Timer delay controls it (e.g., 16ms per tick).
+
+11b) What enables keyboard input?
+Adding a KeyListener and calling setFocusable(true) on the panel.
+
+11c) What method does the timer execute?
+The ActionListener callback each tick.
+
+12a) What type holds image data?
+BufferedImage.
+
+12b) Where is the image and what is it?
+resources/spriteSheet.png (a spritesheet image).
+
+12c) What is painted to the window?
+The Graphics object draws the BufferedImage (or a subimage) in paintComponent().
+
+12d) What do you see after changing file name to resources/spriteSheet.png?
+A single sprite frame is displayed (cropped/scaled).
+
+12e) Why is SpriteAnimationPanel animated?
+It uses a Timer to advance the frame index and repaints repeatedly, drawing different subimages each time.
+
+13a) If it graphs continuous equations, why no calculus?
+It uses discrete time-stepping (Euler-style approximation) instead of symbolic integration/differentiation.
+
+13b) What does each initial value represent?
+The starting population proportion/amount for each species.
+
+13c) Why are curves smooth?
+Small dt updates + many steps produce gradual changes, and drawing connects many close points.
+
+14a-f) Parameter tuning questions
+(These depend on the run you observed. Use the values you ended up with in your Ecosystem simulations; the goal is to show you tested and tuned.)
+
+15) Refactor & Fungus & sprites
+Completed by splitting ArcadeGame into InputHandler, Wolf, Rabbit, Carrot, Fungus, Ecosystem, plus ArcadeGame launcher. Wolves and rabbits draw from spritesheets in resources/.
